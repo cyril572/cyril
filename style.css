@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color:#2d2d2d;
+  color: white;
+ 
+}
+
+header{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+     margin-top: 40px;
+    
+    
+    
+}
+nav {
+ display: flex;
+ gap: 90px;
+ border: 1px solid white;
+ padding: 20px;
+ margin-top: 30px;
+ border-radius: 20px;
+}
+nav a{
+    color:#2d2d2d;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: -40px;
+    padding: 10px;
+    font-size: 20px;
+}
+nav h1{
+    font-size: 23px;
+}
+
+
+nav a:hover{
+   animation-name: logo;
+   animation-duration: 4s;
+   animation-timing-function: linear;
+   animation-iteration-count: initial;
+    
+}
+@keyframes logo {
+    from{
+        transform: translateY(-10px) ;
+    }
+    to{
+        transform: translateY(0px)
+    }
+}
+.hero img{
+   
+     border-radius: 10px;
+     height: 40em;
+     border: none;
+    
+}
+.hero{
+    justify-content: center;
+   display: flex;
+   margin-top: 90px;
+   gap: 200px;
+
+}
+.hero p{
+    width: 470px;
+}
+.article{
+    margin-top: 150px;
+ 
+}
+.article h5{
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+.article h1{
+    margin-top: 30px;
+      margin-bottom: 30px;
+      width: 390px;
+      font-size: 30px;
+}
+.hero h1{
+    text-shadow:0px 0px 40px;
+}
+.logo h1{
+    text-shadow: 0px 0px 9px;
+}
+.name{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+.article a{
+    background-color: #ffff;
+    color: #2d2d2d;
+    padding: 12px;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0px 0px 9px ;
+}
+button:hover{
+     transform:translateY(-9px);
+     transition: 1s;
+}
+#btn{
+ padding: 12px;
+ border-radius: 100%;
+ border: none;
+}
+.none{
+    display: none;
+}
+@media (max-width:445px) {
+  
+    header{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+
+    
+    
+    
+}
+
+.list{
+    width: 13%;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 9px;
+
+}
+
+ .src{
+    display: none;
+ }
+nav {
+ border: none;
+ display: flex;
+ flex-direction: column;
+  background-color: #2d2d2d;
+  box-shadow: 0px 0px 9px;
+  position: absolute;
+  width: 30%;
+  margin: auto;
+  margin-top: 90px;
+  right: 0;
+ 
+}
+nav a{
+    color:#2d2d2d;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: -40px;
+    padding: 10px;
+    font-size: 20px;
+}
+nav h1{
+    font-size: 23px;
+}
+
+
+nav a:hover{
+   animation-name: logo;
+   animation-duration: 4s;
+   animation-timing-function: linear;
+   animation-iteration-count: initial;
+    
+}
+@keyframes logo {
+    from{
+        transform: translateY(-10px) ;
+    }
+    to{
+        transform: translateY(0px)
+    }
+}
+.hero img{
+   
+     border-radius: 10px;
+     height: 40em;
+     border: none;
+     width: 90%;
+    
+     height: 26em;
+
+    
+    
+}
+.hero{
+    justify-content: center;
+   display: flex;
+   margin-top: 90px;
+   gap: 30px;
+   flex-direction: column;
+   margin: auto;
+   margin-left: 34px;
+   margin-top: 40px;
+
+}
+.hero p{
+    width: 90%
+}
+.article{
+    margin-top: 150px;
+     margin-bottom: 20%;
+   
+ 
+}
+.article h5{
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+.article h1{
+    margin-top: 30px;
+      margin-bottom: 30px;
+      width: 80%;
+      font-size: 30px;
+    
+}
+.hero h1{
+    text-shadow:0px 0px 40px;
+}
+.logo h1{
+    text-shadow: 0px 0px 9px;
+    margin-left: -40px;
+}
+.name{
+    display: flex;
+    margin-top: 30px;
+     gap: 0px;
+    flex-direction:row;
+    
+  
+}
+
+.article a{
+    background-color: #ffff;
+    color: #2d2d2d;
+    padding: 12px;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0px 0px 9px ;
+}
+button:hover{
+     transform:translateY(-9px);
+     transition: 1s;
+}
+#btn{
+ padding: 12px;
+ border-radius: 100%;
+  display: none;
+}
+
+#buut{
+    display: none;
+}
+.none{
+    display: none;
+}
+
+}
