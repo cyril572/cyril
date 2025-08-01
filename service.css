@@ -427,7 +427,7 @@ nav a:hover{
    margin-left:-27px;
  }
  input{
-   width: 300px;
+   width: 100%;
    
    border-radius: 30px;
  }
